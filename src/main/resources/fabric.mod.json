@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "minfalldistance",
+  "version": "${version}",
+  "name": "MinFallDistance",
+  "description": "",
+  "authors": [
+    "Tapio"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.plr.minfalldistance.MinFallDistance"
+    ]
+  },
+  "mixins": [
+    "minfalldistance.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*"
+  }
+}
